@@ -1,0 +1,161 @@
+.wrapper{
+    width: 70%;
+}
+header{
+    display: flex;
+}
+
+.main_logo{
+    width: 66%;
+    text-align: center;
+}
+.other_logos{
+    width: 40%;
+}
+.other_logos>img{
+    padding: 5px;
+    margin: 5px;
+}
+
+header input{
+    border: 1px solid #24292e;;
+    border-radius: 28px;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+
+  
+}
+.other_logos span{
+    border: 1px solid #222;
+    border-radius: 20px;
+    padding: 5px 10px 5px 20px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAMAAAAL34HQAAAAY1BMVEX///8AAADr6+v09PTi4uIfHx+7u7vX19f4+PhiYmLa2trR0dHFxcVqamqnp6fm5uavr6+RkZEtLS1UVFQ8PDwnJycyMjJ9fX1LS0vLy8uEhIQSEhJBQUEXFxd0dHRbW1uZmZny835+AAADxklEQVR4nO2c2ZqiQAxGLVDEHRdswY33f8qh3RWSij0x/8zXda774nRRpFJJsNMJBAKBwC8njYajcdFFazyRJvPBpuecWyRolSvpqNq6OyO0z5lk4J5YxmijmmjiXpmjnWpWDSvnUrRUtGuxcl9orWObleuBo0TValXveqhVf0touT5Sq0dZuSVw109JK+dwsX5IL1YNTOuLs3IZyKrLWrn1DKNV8lqugljRweFKhNCiIumdEqHltXJubG81Emjt7LX46HDBPEjE7anDCyvrXS95hjUDY61EpmW96+dCrdw2IRz4jc5MTLVyqZZtQrgXa5leN8RWtpfZ/17L9IrN5stPmN41Wi/TLWxtb2aik9qZR3nuLvawVtYZ11ikVRhbdbprv9TOvkCS+g/FDeKK4U0hpgCp+j7msUJdqlmpBazudmCs1kOUFRci1sDiVrQhnyC0FEi+i4DL9ANkIQlq1d4o+H6GYC3quAZrUeciunPXbEKdsL0aNqFCF3q5CK0eWIuq6oIbilQ5ybgg8gqZDB6hWvRNA3os0lnXBttGJ89rTM58ZUbegCA9jBvk9RrbRo8pLfBjpKsR0F1P764jdEqDbpVhHyNdgoPOJtEdjR00StDt4Q1Siw4SrkJ6MY0pqBdT7YJue7rZYl4/fYR5jHvQnMYJZv4gRz5HpoGQA8NXxNSec/NK+B2uq76X5vZxob4T2c6GqMQbn3LwTDkjYhtBAq/4sj+Xyiu25LwmvvSrv7j97Vw1VYuIStyZAf9CxouHv52oLljMtz+5gD97+ZcqTbGCb/kzI12NwvVKsx7lGb5ZUxGsrfugeTxkvNe2PcEnztSJ3vngmwrKW0IrPZV5UNtivqnBbWOHtY+3n1mo1fA8z7Fm+hSXUk8rd6oUxfxjVIOHrZ96xwSOSqmkf73c4dbckwxdbXTE/FOpLj+/k/61OlOqHOCiKb2y6Eun+ZxS5004wCG3UvISDlu+gU4bInlrKSSoaDGlL6hWp8vmX2+TK2m9MQgqQXHmVzo3K6HS0+ok8nk9H6rVDM+nJHKUB/qkx4uPo3ZFXXBCCjgoW9UPUjp5yfGBQlns+ypIwEe6DwV75RbwoTmGv12wjxU7I9F3JQT6G/5GOv55UvHZimL2s3dSXLf7KZHg+tHEYthw/G5e4SlBaZH2uTnMBl+G/dLsIPzMZGc86jHMJO9lBSjqd0tyTPTEvgR1GqKEmJn7poSO6iSHlmDWO6Kmte/Miur5kjTJhvAflbjQLabzsiznWfEv/CpIIBAIBAKBQCAQ+HX8AUgVKd2N9ZGIAAAAAElFTkSuQmCC);
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+nav ul button{
+    background-color: lightseagreen;
+    color: white;
+   
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    border: none;
+    margin: 5px;
+}
+
+
+nav>ul{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 19px 10px 5px 198px;
+    font-size: 1em;
+    color: rgb(92, 90, 90);
+    border: 1px solid  rgb(92, 90, 90);
+}
+nav>ul>li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+    
+}
+.main_image{
+    width: 100%;
+   
+}
+.country_garden{
+    width: 50%;
+    font-family: sans-serif;
+}
+a{
+    color: #2bbe2b;
+    text-decoration: none;
+}
+#descrip{
+    width: 100%;
+    display: block;
+    margin-left: 120px;
+}
+#faqs,#related-products{
+    margin-left: 120px;
+}
+
+.country_garden{
+    
+    text-align: justify;
+    
+}
+#descrip>h5>span{
+    font-size: 10px;
+    margin-left: 20px;
+}
+#product_details strong{
+    display: block;
+}
+.pro{
+    width: 100%;
+    display: flex;
+    margin-left: 120px;
+    justify-content: center;
+
+}
+p{
+    line-height: 1.4em;
+}
+.cart_btn{
+    padding: 7px 20px;
+    background-color: #eb6d57;
+    border: none;
+    color: white;
+}
+h3{
+    color: blue;
+}
+.flowers{
+    width: 123%;
+    display: flex;
+    justify-content: center;
+}
+.figure{
+    width: 200px;
+    height:300px ;
+   
+
+}
+figure>img{
+    height: 208px;
+    width: 140px;
+}
+.icons>i{
+    display: inline-block;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    margin: 0px;
+    padding: 8px;
+    font-size: 0.8em;
+
+}
+.fb{
+    background-color: #1253c6;;
+    color: white;
+}
+.tw{
+    background-color: cornflowerblue;
+    color: white;
+}
+.en{
+ background-color: black;
+ color: white;
+}
+.g{
+background-color: orange;
+color: white;
+}
+.linkedin{
+    background-color: cornflowerblue;
+    color: white;
+}
